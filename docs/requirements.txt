@@ -1,4 +1,4 @@
-sphinx
+sphinx>=5.1.1
 sphinx-autobuild
 livereload
 myst-parser
@@ -7,3 +7,4 @@ karma-sphinx-theme
 sphinx-design
 furo
 sphinx-bootstrap-theme
+sphinxcontrib-youtube

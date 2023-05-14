@@ -15,8 +15,10 @@ DeepWater Exploration Documentation
    :caption: Products
 
    products/explorehd
+   products/explorehd_heavy
    products/hdcam
    products/fiber_board
+   products/7-port-usb-multiplexer
 
 .. toctree::
    :maxdepth: 2
@@ -32,9 +34,9 @@ DeepWater Exploration Documentation
    :maxdepth: 2
    :caption: Software
 
+   software/driverUI
    software/qgroundcontrol
    software/open_broadcasting_software
-   software/driverUI
    software/firmware
 
 .. meta::

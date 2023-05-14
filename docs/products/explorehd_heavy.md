@@ -1,37 +1,28 @@
-# exploreHD
+# exploreHD Heavy
+<!-- TODO: LINK TO PRODUCT PAGE -->
+[![exploreHD Heavy](https://cdn.shopify.com/s/files/1/0575/8785/9626/files/P1047400_540x.jpg?v=1678088724)](https://dwe.ai/collections/all)
 
-[![exploreHD](https://cdn.shopify.com/s/files/1/0575/8785/9626/files/exploreHDDOCS_500x.jpg)](https://exploredeepwater.com/products/explorehd-rov-auv-usb-camera)
-
-[Product Link](https://exploredeepwater.com/products/explorehd-rov-auv-usb-camera)
-
-## USS Midway Hull Inspection
-
-```{youtube} chALMJ4gDEU
-```
-
-## {doc}`Firmware Update <../software/firmware>`
-
-```{important} Please update your firmware if you were shipped an exploreHD or HDCam before 11/20/2021
-```
+<!-- TODO: LINK TO PRODUCT PAGE -->
+[Product Link](https://dwe.ai/products/explorehd-heavy)
 
 ## Introduction
 
-Our passion for uncompromised image quality for marine robotics is the simple philosophy behind the exploreHD Underwater USB Camera (DWE-EHDUSBR2). This UVC compliant camera is the first of its kind to feature a high definition USB output while achieving a waterproof rating of IP69K. With the use of a modern Sony sensor, this camera will be able to see in low light conditions like never before. Thanks to advanced automated exposure and white balance adjustments, this camera produces accurate colors and a pleasing natural image. With H.264 compression technology, up to 7 cameras can be connected at once and streamed via ethernet without major quality loss or latency. This makes our camera the perfect choice for advanced multi-cam ROV/AUV setups.
+Introducing the exploreHD Heavy, the next evolution of our flagship product line. With an uncompromising commitment to image quality, this underwater USB camera features the same high definition USB output and Sony sensor found in our original exploreHD camera, but with a depth rating of 1000m! Advanced automated exposure and white balance adjustments ensure accurate colors and a natural image, even in low light conditions. The exploreHD Heavy also features H.264 compression technology, allowing up to 7 cameras to be connected and streamed simultaneously with minimal loss in quality and latency. This makes it the perfect choice for advanced multi-cam ROV/AUV setups, deep sea exploration, and scientific research. With the exploreHD Heavy, you can capture stunning images of the most remote and inaccessible underwater environments with ease and confidence.
 
 ## Technical Specifications
 
 ```{dropdown} Waterproof Specifications
-**Waterproof Depth:** 400 meters 
+**Waterproof Depth:** 1000 meters
 
-**Ingress Protection Rating:** IP69K
-
-**Cable Diameter:** 4mm OD
+**Cable Diameter:** 4.5mm OD
 ```
 
+<!-- TODO: WEIGHTS -->
 ```{dropdown} Physical Specifications
-**Weight in Air:** 84 grams
 
-**Weight in Water:** 60 grams
+**Weight in Air:** 
+
+**Weight in Water:** 
 ```
 
 ```{dropdown} Camera Specifications
@@ -64,7 +55,7 @@ Our passion for uncompromised image quality for marine robotics is the simple ph
 ```
 
 ```{dropdown} Lens Specifications
-**Type:** Fisheye 
+**Type:** Fisheye
 
 **Lens Aperture:** f/1.9
 
@@ -76,12 +67,12 @@ Our passion for uncompromised image quality for marine robotics is the simple ph
 ## Image Samples
 
 Color remains accurate even in low light situations
-![exploreHD](../img/explorehd/exploreHD_accurate_colors.jpg)
+![exploreHD Heavy](../img/explorehd/exploreHD_accurate_colors.jpg)
 
 ### Comparison of Color Accuracy with GoPro
 
 The left Image is from exploreHD and the right is from a GoPro Hero
-![exploreHD](../img/explorehd/GoPro_vs_exploreHD.jpg)
+![exploreHD Heavy](../img/explorehd/GoPro_vs_exploreHD.jpg)
 
 ## Operating Notes
 
@@ -100,11 +91,9 @@ The camera offers TrueColor Technology which compensates for the blue/greenish t
 
 ## Camera Installation
 
-```{note} If the camera is going into an ROV electronic enclosure, you will need to waterproof the wires properly using a cable penetrator. You can either use potted penetrators or WetLink from Blue Robotics.
+```{note} All exploreHD Heavy units will come with a WetLink Penetrator by default.
 
-Recommended Cable Penetrators 
-
-[**Potted Penetrators (M10 thread, for 3-4 mm cable)**](https://bluerobotics.com/store/cables-connectors/penetrators/penetrator-vp/)
+Cable Penetrator:
 
 [**WetLink Penetrator (WLP-M10-4.5MM-HC (for 4.0 mm cable)**](https://bluerobotics.com/store/cables-connectors/penetrators/wlp-vp/)
 ```
@@ -273,7 +262,7 @@ This software supports unlimited camera streams given you have unlimited USB por
 ```{youtube} ZJl32Xt4jQQ
 ```
 
-## Technical Drawings
+<!-- ## Technical Drawings
 
 ```{dropdown} exploreHD 2.0 Housing
 
@@ -291,7 +280,5 @@ This software supports unlimited camera streams given you have unlimited USB por
 
 - [exploreHD 3.0 Stand Assembly STEP File](https://cdn.shopify.com/s/files/1/0575/8785/9626/files/eHD_3.0_Stand_Full_Assembly_v7.step)
 
-![exploreHD](../img/explorehd/technical_drawing/eHD_3.0_drawing.jpg)
-
-```
+``` -->
 

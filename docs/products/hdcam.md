@@ -1,6 +1,6 @@
 # HDcam
 
-[![HDcam](../img/hdcam/1_d8ef6594-eb9b-4eda-8928-93b7c368b479_590x.jpg)](https://exploredeepwater.com/products/hd-usb-camera)
+[![HDcam](https://cdn.shopify.com/s/files/1/0575/8785/9626/files/HDCam_ROV_AUV_Camera_Tripod_Angled_500x.jpg)](https://exploredeepwater.com/products/hd-usb-camera)
 
 [Product Link](https://exploredeepwater.com/products/hd-usb-camera)
 
@@ -30,9 +30,11 @@ The HDCam is the bare board of the exploreHD Camera but without the waterproof h
 
 **Chroma Subsampling:** 4:2:2 with YUY2, 4:2:0 with MJPEG/H.264
 
-**Color Depth:** 8 bit
+**Color Depth Per Channel:** 8 bit per RGB channel / 24 bit per pixel
 
 **Bitrate:** 10Mb/s with H.264, VBR with MJPEG/YUY2 
+
+**H.264 Compression Profiles:** Baseline Profile
 
 **Streaming Latency:** 35ms ± 20 [More Details](#streaming-latency)
 
@@ -41,6 +43,8 @@ The HDCam is the bare board of the exploreHD Camera but without the waterproof h
 **Voltage:** 5V 
 
 **Current:** 250mA
+
+**Wattage:** <1.5W
 
 **Footprint:** 30 mm diameter (PCB)
 ```
@@ -119,49 +123,7 @@ Conversely, using a lens designed for a smaller sensor (1/3 or smaller) will inc
 
 ![HDCam Image 3](../img/hdcam/image_samples/HDCam_Image_3.jpg)
 
-## Mount Installation
 
-```{note} To enable the mounting of this camera, two screw holes are located on the base of the camera holder bracket. These 20mm apart M3 counter-bores should allow for the attaching of the camera to any surface, provided two M3 threads or nuts 20mm apart may be made or placed on the surface.
-```
-
-### Step 1
-
-![exploreHD](../img/hdcam/mount_installation/HDCam_Step_1_x150.jpg)
-
-To begin the process of installing the HDCam, ensure you have the
-parts detailed in the contents section of this manual as well as a 2mm hex
-Allen wrench or screwdriver(not included).
-
-### Step 2
-
-![exploreHD](../img/hdcam/mount_installation/HDCam_Step_2_x150.jpg)
-
-Tap or drill a hole for where you want to mount the camera and attach the
-camera holder bracket to the surface using the longer M3 screws.
-
-### Step 3
-
-![exploreHD](../img/hdcam/mount_installation/HDCam_Step_3_x150.jpg)
-
-After the securing of the camera holder bracket, place the square nuts within
-the square indentation located on the bottom of the camera holder, and align
-the holes of the camera holder with the lateral holes of the camera bracket
-holder.
-
-### Step 4
-
-![exploreHD](../img/hdcam/mount_installation/HDCam_Step_4_x150.jpg)
-
-Begin screwing in both remaining screws on each side of the camera bracket
-holder, and properly position the camera to the point of view you require for
-your uses and finish screwing in the screws.
-
-### Step 5
-
-![exploreHD](../img/hdcam/mount_installation/HDCam_Step_5_x150.jpg)
-
-Connect the provided USB cable to the camera using the USB connector
-located at the top of the camera holder.
 
 ## Streaming
 
@@ -206,9 +168,17 @@ This software supports unlimited camera streams given you have unlimited USB por
 - **Recieving Software:** Open Broadcaster Software
 - **Latency:** 35ms ± 20
 
+```{youtube} ZJl32Xt4jQQ
+```
+
 ## Technical Drawing
 
-![HDCam](../img/hdcam/technical_drawings/HDCam_Mount_Drawing_299x.jpg)
-![HDCam](../img/hdcam/technical_drawings/HDCam_camera_Drawing_310x.jpg)
+![HDCam](../img/hdcam/technical_drawings/HDC.JPG)
+
+[Download STEP File of HDcam 2.0 Assembly](https://cdn.shopify.com/s/files/1/0575/8785/9626/files/HDC_Assy_v2.step?v=1661972385)
+
+![HDCam](../img/hdcam/technical_drawings/BlueROVConnection.JPG)
+
+[Download STL File of HDcam 2.0 Mount for BlueROV 2](https://cdn.shopify.com/s/files/1/0575/8785/9626/files/BlueROV2_HDC_Bracket_v5_1.stl?v=1659117334)
 
 

@@ -36,7 +36,7 @@ Run *DWEFirmwareLoader.exe*
 
 Click on the firmware version that you would like to use.
 
-```{important} Since the introduction of our [exploreHD Controls](https://docs.exploredeepwater.com/software/driverUI.html), we no longer offer High Quality Firmware as the setting can be adjusted via the driver UI. The default camera firmware we ship and reocmmend is the lower bandwidth version when streaming. If you have any questions, feel free to ask on [our forums](https://discuss.exploredeepwater.com/).
+```{important} Since the introduction of [DWE OS](https://docs.exploredeepwater.com/software/driverUI.html), we no longer offer High Quality Firmware as the setting can be adjusted via the driver UI. The default camera firmware we ship and recommend is the lower bandwidth version when streaming. If you have any questions, feel free to ask on [our forums](https://discuss.exploredeepwater.com/).
 ```
 
 
@@ -80,4 +80,5 @@ If you see any errors during the upgrading process, please follow the guides bel
 ```{warning} This video uses an outdated version of the loader and may not be accurate. Documentation for this version can be found [here](https://docs.exploredeepwater.com/legacy/firmware_legacy.html).
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G4h9EAG88HU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{youtube} G4h9EAG88HU
+```

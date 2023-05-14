@@ -29,7 +29,7 @@ author = 'Brandon Stevens'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'myst_parser', 'sphinx_design'
+    'myst_parser', 'sphinx_design', 'sphinxcontrib.youtube'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -75,10 +75,10 @@ html_favicon = 'img/wave.png'
 
 html_title = "DeepWater Exploration docs"
 
-#html_logo = 'dwe_transparent2.png'
+#html_logo = 'DWELogo_black_WEB.svg'
 html_theme_options = {
-    'dark_logo': 'dwe_transparent.png',
-    'light_logo': 'dwe_transparent2.png',
+    'dark_logo': 'DWELogo_white_WEB.svg',
+    'light_logo': 'DWELogo_black_WEB.svg',
     'navigation_with_keys': True,
     'footer_icons': [
         {
