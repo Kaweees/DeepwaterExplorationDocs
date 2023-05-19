@@ -75,7 +75,7 @@ html_favicon = 'img/wave.png'
 
 html_title = "DeepWater Exploration docs"
 
-#html_logo = 'dwe_transparent2.png'
+#html_logo = 'DWELogo_black_WEB.svg'
 html_theme_options = {
     'dark_logo': 'DWELogo_white_WEB.svg',
     'light_logo': 'DWELogo_black_WEB.svg',
